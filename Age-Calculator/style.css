@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.main{
+    background: linear-gradient(45deg, rgb(135, 123, 192), rgb(101, 51, 238));
+    color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    max-width: 600px;
+
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.box h1{
+    font-size: 60px;
+}
+
+.inputBox{
+    background-color: rgba(255, 255, 255, 0.472);
+    border-radius: 10px;
+    margin: 40px 0px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.inputBox input{
+    flex: 1;
+    padding: 24px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 200px;
+    margin: 10px 20px;
+}
+.inputBox button{
+    display: flex;    
+    padding: 24px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 0;
+}
+.inputBox button:hover{
+    background-color: rgba(204, 204, 3, 0.812);
+}
+.box p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+.box p span{
+    color: yellow;
+}
+
+
+/* .inputBox{
+    margin: 40px 0px;
+    background-color: rgba(245, 245, 245, 0.513);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+.inputBox input{
+
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    margin-right: 30px;
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: white solid 0px;
+    position: relative;
+    font-size: 18px;
+}
+.inputBox button{
+    display: flex;
+    padding: 14px 20px;
+    background-color: yellow;
+    border: yellow solid 0px;
+    border-radius: 10px;
+    font-weight: bold;
+} */
+
+
+
